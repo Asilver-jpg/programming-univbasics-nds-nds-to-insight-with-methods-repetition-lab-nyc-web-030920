@@ -2,6 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 
 def directors_totals(source)
+  binding.pry
   result = {}
   director_index = 0
   while director_index < source.size do
@@ -13,6 +14,7 @@ def directors_totals(source)
 end
 
 def gross_for_director(d)
+  binding.pry
   total = 0
   index = 0
 
@@ -25,6 +27,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
+  binding.pry
   dir_names=[]
   source.each do |ele|
     dir_names << ele[:name]
