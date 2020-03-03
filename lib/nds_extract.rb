@@ -26,7 +26,9 @@ end
 
 def list_of_directors(source)
   dir_names=[]
-  
+  source.each do |ele|
+    dir_names >> ele[:name]
+  end
 end
 
 def total_gross(source)
