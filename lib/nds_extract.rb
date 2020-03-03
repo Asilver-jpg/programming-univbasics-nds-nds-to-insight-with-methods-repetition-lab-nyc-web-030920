@@ -46,7 +46,7 @@ def total_gross(source)
      
     end
   end
- puts total
+  total
 
 end
 
