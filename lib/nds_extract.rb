@@ -36,11 +36,11 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  
+  binding.pry
   total=0 
   source.each do |director|
     source[director][:movies].each do |i|
-      binding.pry
+      
       total += i[:worldwide_gross]
     end
   end
