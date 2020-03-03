@@ -42,12 +42,11 @@ def total_gross(source)
      
     director[:movies].each do |i|
       total += i[:worldwide_gross]
-       binding.pry
+      
      
     end
   end
-    binding.pry
-  total
+ puts total
 
 end
 
