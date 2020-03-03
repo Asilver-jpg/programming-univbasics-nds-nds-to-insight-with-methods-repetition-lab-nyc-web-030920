@@ -40,12 +40,14 @@ def total_gross(source)
   total=0 
   source.each do |director|
       binding.pry
-    source[director][:movies].each do |i|
+    director[:movies].each do |i|
+      total = 6
        binding.pry
      
     end
   end
   total
+  binding.pry
 end
 
 
