@@ -14,7 +14,7 @@ def directors_totals(source)
 end
 
 def gross_for_director(d)
-  binding.pry
+ 
   total = 0
   index = 0
 
