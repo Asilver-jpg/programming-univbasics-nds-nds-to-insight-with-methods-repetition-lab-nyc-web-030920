@@ -39,7 +39,7 @@ def total_gross(source)
  
   total=0 
   source.each do |director|
-     binding.pry
+     
     source[director][:movies].each do |i|
        binding.pry
       #total += i[:worldwide_gross]
